@@ -34,6 +34,8 @@ app.post('/users', (req, res) => {
     res.send('OK')
 })
 
+console.log('Practice');
+
 // Listening to port
 app.listen(process.env.PORT, () => {
     console.log(`Server is running in PORT ${process.env. PORT}`)
